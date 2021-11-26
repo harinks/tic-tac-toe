@@ -1,0 +1,67 @@
+:root {
+    --blue: #0f3afa;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: var(--blue);
+    font-family: sans-serif;
+    background-color:cornsilk;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+  
+  .container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #gameboard {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    border: solid 1px;
+  }
+  
+  .box {
+    height: 150px;
+    width: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: var(--blue);
+    border: solid 1px;
+  }
+  
+  .box:hover {
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: white;
+    border-color: var(--blue);
+    font-size: 18px;
+    transition: 200ms transform;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+  
